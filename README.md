@@ -1,7 +1,7 @@
 # Plotly_Dashboard
 
-Please use the link to open the website: https://susmithavenkittaraman.github.io/Plotly_Dashboard/
-The data consist of sample_values of bacteria identified and recorded on individual samples. The dashboard is interective and helps analyzing the data further.
+1.Please use the link to open the website: https://susmithavenkittaraman.github.io/Plotly_Dashboard/
+2.The data consist of sample_values of bacteria identified and recorded on individual samples. The dashboard is interective and helps analyzing the data further.
 
 # Getting started
 
