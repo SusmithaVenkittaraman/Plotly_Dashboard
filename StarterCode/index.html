@@ -9,26 +9,30 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<body>
+<body style="background-color: black;">
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron text-center" style="background-image: url('img.jpg');">
+        <br><br>
+        <h1 style="color: aliceblue; font-weight: 100;">Belly Button Biodiversity Dashboard</h1>
+        <p style="color: aliceblue;">Use the interactive charts below to explore the dataset</p>
+        <br><br><br>
       </div>
-    </div>
+    </div></div>
+    <div class="container">
+    <br>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
-          <h5>Test Subject ID No.:</h5>
+        <div class="well" style="background-color: black;">
+          <h5 style="color: aliceblue;">Test Subject ID No.:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
+        <div class="panel" style="background-color:black;">
+          <div class="panel-heading" >
+            <h3 class="panel-title" style="color: aliceblue;">Demographic Info</h3>
           </div>
-          <div id="sample-metadata" class="panel-body">
+          <div id="sample-metadata" class="panel-body" style="color: aliceblue;">
           </div>
         </div>
       </div>
@@ -39,12 +43,19 @@
         <div id="gauge"></div>
       </div>
     </div>
+    <br>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
       </div>
     </div>
+    <br><br><br>
   </div>
+  
+
+  <footer class="footer" style="background-color:black;">
+    <span class="bottom" style="background-color:honeydew;">Belly Button Biodiversity</span>
+</footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>

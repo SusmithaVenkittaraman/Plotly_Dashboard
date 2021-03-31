@@ -88,7 +88,7 @@ var trace_bubble = {
         },
       },
     height: 600,
-    width: 1300
+    width: 1125
   };
 
   //rendering the bubble plot to id bubble
@@ -111,6 +111,7 @@ var traceGauge = {
     direction: 'clockwise',
     textinfo: 'text',
     textposition: 'inside',
+    hoverinfo:'text',
     marker: {
         colors: ['#e7e8e3','#dfe3cf','#dce3c1','#d8e3af','#d8e89e','#cee381','#c6e35d','#b9e02b','#aedb0b','white'],
         
@@ -168,7 +169,7 @@ var layout_gauge = {
         x1: x,
         y1: y,
         line: {
-          color: 'black',
+          color: '#852103',
           width: 8
         }
       }],
